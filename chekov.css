@@ -14,4 +14,23 @@ h1
 {color: blue;}
 .TUZENBACH 
 {color: blanchedalmond;}
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.cast-table th, .cast-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+.cast-table th {
+    background-color: #f2f2f2;
+}
+.cast-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.IRINA:hover{
+    text-shadow: 1px 1px 5px red;
+  }
 
