@@ -35,10 +35,10 @@ tr:nth-child(even) {
   }
 
   ul li {
-    border: 2px solid #3e3532;
+    border: 2px solid #282524;
     text-align: center;
     width: 25%;
-    background-color: #6a20d8;
+    background-color: #1172a6;
     list-style: none;
     border-radius: 4px;
     position: relative;
@@ -47,7 +47,7 @@ tr:nth-child(even) {
 ul li a {
     display: block;
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(25, 24, 23);
     font-weight: 600;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -80,9 +80,9 @@ ul li.winter::before {
 
 ul li:hover a {
     text-decoration: none;
-    color: #20d87f;
+    color: #0fe15c;
 }
 
 ul li:hover {
-    background-color: white;  
+    background-color: rgba(232, 207, 16, 0);  
 }
