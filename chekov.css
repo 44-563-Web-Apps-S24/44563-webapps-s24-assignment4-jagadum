@@ -14,23 +14,75 @@ h1
 {color: blue;}
 .TUZENBACH 
 {color: blanchedalmond;}
-.cast-table {
+table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
-.cast-table th, .cast-table td {
+th,td {
     border: 1px solid #dddddd;
     padding: 8px;
     text-align: left;
 }
-.cast-table th {
+th {
     background-color: #f2f2f2;
 }
-.cast-table tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 .IRINA:hover{
     text-shadow: 1px 1px 5px red;
   }
 
+  ul li {
+    border: 2px solid #3e3532;
+    text-align: center;
+    width: 25%;
+    background-color: #6a20d8;
+    list-style: none;
+    border-radius: 4px;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px 10px 40px;
+}
+
+ul li.theater::before {
+    content: ''; 
+    position: absolute;
+    left: 10px;
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('movie-theater.png');
+    background-size: cover;
+}
+
+ul li.winter::before {
+    content: ''; 
+    position: absolute;
+    left: 10px;
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('snowball.png');
+    background-size: cover;
+}
+
+ul li:hover a {
+    text-decoration: none;
+    color: #20d87f;
+}
+
+ul li:hover {
+    background-color: white;  
+}
